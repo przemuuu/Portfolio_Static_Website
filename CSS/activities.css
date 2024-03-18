@@ -1,0 +1,528 @@
+@media screen and (min-width: 1500px) {
+    .urss {
+        display: flex;
+        overflow: hidden;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        border-bottom: 3px solid white;
+    }
+    .urss-img {
+        position: static;
+        width: 50%;
+        object-fit: contain;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        align-self: center;
+    }
+    .urss img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 20%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .urss-text {
+        position: static;
+        font-family: "Solitreo", sans-serif;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        width: 50%;
+        font-size: 16px;
+        font-weight: normal;
+        padding-left: 20px;
+    }
+    .urss-text h1 {
+        font-family: "Fuggles", sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+    }
+
+
+    .charity {
+        display: flex;
+        overflow: hidden;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        border-bottom: 3px solid white;
+    }
+    .charity h1 {
+        font-family: "Fuggles", sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+    }
+    .charity-img {
+        position: static;
+        width: 50%;
+        object-fit: contain;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    .charity-text {
+        position: static;
+        font-family: "Solitreo", sans-serif;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 50%;
+        font-size: 16px;
+        font-weight: normal;
+        padding-left: 20px;
+    }
+    .charity img {
+        border: 2px solid white;
+        border-radius: 50px;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .juwenalia {
+        display: flex;
+        overflow: hidden;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        border-bottom: 3px solid white;
+    }
+    .juwenalia h1 {
+        font-family: "Fuggles", sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+    }
+    .juwenalia-img {
+        position: static;
+        width: 50%;
+        object-fit: contain;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    .juwenalia-text {
+        position: static;
+        font-family: "Solitreo", sans-serif;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        width: 50%;
+        font-size: 16px;
+        font-weight: normal;
+        padding-left: 20px;
+    }
+    .juwenalia img {
+        border: 2px solid white;
+        border-radius: 50px;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .d0 {
+        display: flex;
+        overflow: hidden;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        border-bottom: 3px solid white;
+    }
+    .d0 h1 {
+        font-family: "Fuggles", sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+    }
+    .d0-img {
+        position: static;
+        width: 50%;
+        object-fit: contain;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    .d0-text {
+        position: static;
+        font-family: "Solitreo", sans-serif;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 50%;
+        font-size: 16px;
+        font-weight: normal;
+        padding-left: 20px;
+    }
+    .d0 img {
+        border: 2px solid white;
+        border-radius: 50px;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .merch {
+        display: flex;
+        overflow: hidden;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        border-bottom: 3px solid white;
+    }
+    .merch h1 {
+        font-family: "Fuggles", sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+    }
+    .merch-img {
+        position: static;
+        width: 50%;
+        object-fit: contain;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    .merch-text {
+        position: static;
+        font-family: "Solitreo", sans-serif;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        width: 50%;
+        font-size: 16px;
+        font-weight: normal;
+        padding-left: 20px;
+    }
+    .merch img {
+        border: 2px solid white;
+        border-radius: 50px;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .wrss {
+        display: flex;
+        overflow: hidden;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        border-bottom: 3px solid white;
+    }
+    .wrss h1 {
+        font-family: "Fuggles", sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+    }
+    .wrss-img {
+        position: static;
+        width: 50%;
+        object-fit: contain;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    .wrss-text {
+        position: static;
+        font-family: "Solitreo", sans-serif;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 50%;
+        font-size: 16px;
+        font-weight: normal;
+        padding-left: 20px;
+    }
+    .wrss img {
+        border: 2px solid white;
+        border-radius: 50px;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1499px) {
+    .urss {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        border-bottom: 3px solid white;
+    }
+    .urss-img {
+        position: static;
+        height: 50%;
+        width: 80%;
+        object-fit: contain;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    .urss img {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .urss-text {
+        position: static;
+        font-family: "Solitreo", sans-serif;
+        width: 80%;
+        height: 50%;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: justify;
+        align-self: center;
+    }
+    .urss-text h1 {
+        font-family: "Fuggles", sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+    }
+
+
+    .charity {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        border-bottom: 3px solid white;
+    }
+    .charity h1 {
+        font-family: "Fuggles", sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+    }
+    .charity-img {
+        position: static;
+        height: 50%;
+        width: 80%;
+        object-fit: contain;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    .charity-text {
+        position: static;
+        font-family: "Solitreo", sans-serif;
+        width: 80%;
+        height: 50%;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: justify;
+        align-self: center;
+    }
+    .charity img {
+        border: 2px solid white;
+        border-radius: 50px;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .juwenalia {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        border-bottom: 3px solid white;
+    }
+    .juwenalia h1 {
+        font-family: "Fuggles", sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+    }
+    .juwenalia-img {
+        position: static;
+        height: 50%;
+        width: 80%;
+        object-fit: contain;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    .juwenalia-text {
+        position: static;
+        font-family: "Solitreo", sans-serif;
+        width: 80%;
+        height: 50%;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: justify;
+        align-self: center;
+    }
+    .juwenalia img {
+        border: 2px solid white;
+        border-radius: 50px;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+
+
+    .d0 {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        border-bottom: 3px solid white;
+    }
+    .d0 h1 {
+        font-family: "Fuggles", sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+    }
+    .d0-img {
+        position: static;
+        height: 50%;
+        width: 80%;
+        object-fit: contain;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    .d0-text {
+        position: static;
+        font-family: "Solitreo", sans-serif;
+        width: 80%;
+        height: 50%;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: justify;
+        align-self: center;
+    }
+    .d0 img {
+        border: 2px solid white;
+        border-radius: 50px;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .merch {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        border-bottom: 3px solid white;
+    }
+    .merch h1 {
+        font-family: "Fuggles", sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+    }
+    .merch-img {
+        position: static;
+        height: 50%;
+        width: 80%;
+        object-fit: contain;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    .merch-text {
+        position: static;
+        font-family: "Solitreo", sans-serif;
+        width: 80%;
+        height: 50%;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: justify;
+        align-self: center;
+    }
+    .merch img {
+        border: 2px solid white;
+        border-radius: 50px;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+
+
+    .wrss {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        border-bottom: 3px solid white;
+    }
+    .wrss h1 {
+        font-family: "Fuggles", sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: center;
+    }
+    .wrss-img {
+        position: static;
+        height: 50%;
+        width: 80%;
+        object-fit: contain;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    .wrss-text {
+        position: static;
+        font-family: "Solitreo", sans-serif;
+        width: 80%;
+        height: 50%;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: justify;
+        align-self: center;
+    }
+    .wrss img {
+        border: 2px solid white;
+        border-radius: 50px;
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+}

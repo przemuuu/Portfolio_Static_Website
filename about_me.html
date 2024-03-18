@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- autor -->
+  <meta name="Autor" content="Przemyslaw Popowski"/>
+  <!-- opis -->
+  <meta name="Opis" content="Mikro projekt WDAI"/>
+  <!-- nazwa strony -->
+  <title>PP</title>
+  <!-- character encoding -->
+  <meta charset="UTF-8"/>
+  <!-- logo strony -->
+  <link rel="icon" type="image/x-icon" href="Photos/webLogo.jpg"/>
+  <!-- CSS -->
+  <link rel="stylesheet" href="CSS/navigation_bar.css"/>
+  <link rel="stylesheet" href="CSS/layout0.css"/>
+  <link rel="stylesheet" href="CSS/slides.css"/>
+  <!-- JavaScript -->
+  <script src="JS/slides.js"></script>
+  <script src="JS/navigation_bar.js"></script>
+  <!--  czcionki  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fuggles">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bilbo">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Solitreo">
+</head>
+<!-- BODY -->
+<body>
+<div class="background-img"></div>
+<div class="wrapper">
+  <div class="header">
+    <div class="bolid">
+      <img src="Photos/bolidLogo.png"/>
+    </div>
+    <div class="logo">
+      <h1>Przemysław Popowski</h1>
+    </div>
+  </div>
+  <div class="nav" id="myTopnav">
+    <a href="main.html" style="border-left: 2px dashed;">Strona główna</a>
+    <a class="active" href="about_me.html">O mnie</a>
+    <a href="activities.html">Działalność</a>
+    <a href="contact_me.html">Skontaktuj się</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <img src="Photos/more.jpg"/>
+    </a>
+  </div>
+  <div class="slides">
+
+    <div class="mySlides fade" style="display: flex">
+      <div class="slideText">
+        <h1> O MNIE </h1>
+        <p>Nazywam się Przemysław Popowski</p>
+        <p>Pochodzę z Podlasia</p>
+        <p>Mam 20 lat</p>
+        <p>Interesuję się gotowaniem, motoryzacją i Formułą 1</p>
+        <p>W wolnym czasie lubię spotykać się ze znajomymi i grać w piłkę nożną</p>
+        <p>O studiowaniu na AGH marzyłem już od szkoły podstawowej.</p>
+        <p>Na zakończenie pragnę odpowiedzieć na częste pytanie - dlaczego Kraków, a nie Warszawa? </p>
+        <p> - Nie jestem fanem tamtejszej atmosfery i infrastruktury, a odległość od domu mi nie przeszkadza. </p>
+        <p> - W Krakowie czuję się fantastycznie i uwielbiam spędzać wolne chwile spacerując po rynku, bądź zwiedzając przepiękne zabytki. </p>
+      </div>
+      <div class="slidePhoto">
+        <img src="Photos/me.jpg">
+      </div>
+    </div>
+
+    <div class="mySlides fade" style="display: none">
+      <div class="slideText">
+        <h1> PODLASIE </h1>
+        <p> Pochodzę dokładnie z małej miejscowości o nazwie Knyszyn. Więcej o niej będzie na kolejnym slajdzie.</p>
+        <p> Województwo podlaskie położone jest w północno-wschodniej Polsce i graniczy od wschodu z Białorusią, od północnego-wschodu z Litwą, a po stronie polskiej z trzema województwami: warmińsko-mazurskim, mazowieckim i lubelskim. Stolicą województwa jest Białystok. Podlaskie zajmuje obszar o powierzchni blisko 20 200 km², a liczba mieszkańców w 2017 roku wynosiła 1,185 miliona.</p>
+      </div>
+      <div class="slidePhoto">
+        <img src="Photos/podlasie.jpg">
+      </div>
+    </div>
+
+    <div class="mySlides fade" style="display: none">
+      <div class="slideText">
+        <h1>KNYSZYN</h1>
+        <p>Jest to miasto w województwie podlaskim, w powiecie monieckim, nad rzeką Jaskranką.</p>
+        <p>Według danych z 1 stycznia 2018 Knyszyn liczył 2782 mieszkańców.</p>
+        <p>W roku 1568 Knyszyn otrzymał prawa miejskie od króla Zygmunta Augusta.</p>
+        <p>Udokumentowanych jest 19 pobytów króla w Knyszynie, łącznie około 500 dni, w latach 1533–1572.</p>
+        <p>W Knyszynie król chętnie wypoczywał, stąd władał Królestwem Polskim i Wielkim Księstwem Litewskim.</p>
+        <p>Podpisał wiele dokumentów m.in. pierwszą w Polsce Ustawę Morską i Leśną.</p>
+        <p>Król Zygmunt August zmarł w Knyszynie 7 lipca 1572 roku.</p>
+        <p></p>
+      </div>
+      <div class="slidePhoto">
+        <img src="Photos/knyszyn.jpg">
+      </div>
+    </div>
+
+    <div class="mySlides fade" style="display: none">
+      <div class="slideText">
+        <h1>HOBBY</h1>
+        <p>Moim aktualnie największym hobby jest oglądanie Formuły 1.</p>
+        <p>Moja pierwsza styczność z tym motorsportem nastąpiła, gdy babcia oglądała wyścig po obiedzie w 2008 roku i kibicowała Robertowi Kubicy.</p>
+        <p>Natomiast w 2017 roku zacząłem oglądać wyścigi z ciekawości, a później już z pasji i zainteresowania.</p>
+        <p>Aktualnie moim ulubionym kierowcą w stawce jest Max Verstappen z zespołu Red Bull Racing, któremu kibicuję od 2018 roku.</p>
+        <p>Jednak jeżeli miałbym wybrać najlepszego kierowcę wszechczasów, to bez wątpienia wskazałbym na Michaela Schumachera.</p>
+      </div>
+      <div class="slidePhoto">
+        <img src="Photos/f1.jpg">
+      </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  <div style="text-align:center">
+    <span class="dot active" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+  <!-- SOCIALE -->
+  <div class="socials" style="border-top: 2px solid white">
+    <a href="https://github.com/przemuuu">
+      <img src="Photos/github.png">
+    </a>
+  </div>
+  <!-- KONIEC SOCIALS -->
+  <!-- FOOTER -->
+  <footer>
+    <p class="footer_text" style="font-weight: normal; font-style: oblique">
+      2023 © Przemysław Popowski --- The Faculty of Computer Science at AGH University
+    </p>
+  </footer>
+  <!-- KONIEC FOOTER -->
+</div>
+</body>
+<!-- KONIEC BODY -->
+</html>

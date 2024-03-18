@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- autor -->
+    <meta name="Autor" content="Przemyslaw Popowski"/>
+    <!-- opis -->
+    <meta name="Opis" content="Mikro projekt WDAI"/>
+    <!-- nazwa strony -->
+    <title>PP</title>
+    <!-- character encoding -->
+    <meta charset="UTF-8"/>
+    <!-- logo strony -->
+    <link rel="icon" type="image/x-icon" href="Photos/webLogo.jpg"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/navigation_bar.css"/>
+    <link rel="stylesheet" href="CSS/layout0.css"/>
+    <link rel="stylesheet" href="CSS/form.css"/>
+    <!-- JavaScript -->
+    <script src="JS/form.js"></script>
+    <script src="JS/navigation_bar.js"></script>
+    <!--  czcionki  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fuggles">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bilbo">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Solitreo">
+</head>
+<!-- BODY -->
+<body>
+<div class="background-img"></div>
+<div class="wrapper">
+    <div class="header">
+        <div class="bolid">
+            <img src="Photos/bolidLogo.png"/>
+        </div>
+        <div class="logo">
+            <h1>Przemysław Popowski</h1>
+        </div>
+    </div>
+    <div class="nav" id="myTopnav">
+        <a href="main.html" style="border-left: 2px dashed;">Strona główna</a>
+        <a href="about_me.html">O mnie</a>
+        <a href="activities.html">Działalność</a>
+        <a class="active" href="contact_me.html">Skontaktuj się</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img src="Photos/more.jpg"/>
+        </a>
+    </div>
+    <div class="contact">
+        <form id="myForm" >
+            <label for="fname" style="font-family: Solitreo, sans-serif;font-size: 20px">Imię:</label>
+            <input type="text" id="fname" name="firstname" required placeholder="Twoje imię...">
+
+            <label for="lname" style="font-family: Solitreo, sans-serif;font-size: 20px">Nazwisko:</label>
+            <input type="text" id="lname" name="lastname" required placeholder="Twoje nazwisko...">
+
+            <label for="email" style="font-family: Solitreo, sans-serif;font-size: 20px">Email:</label>
+            <input type="text" id="email" name="email" required placeholder="Twój email...">
+
+            <label for="topic" style="font-family: Solitreo, sans-serif;font-size: 20px">Wiadomość:</label>
+            <textarea id="topic" name="topic" placeholder="Treść..."></textarea>
+
+            <input type="submit" value="Wyślij">
+        </form>
+        <div id="confirmation" style="display: none;">
+            Dziękuję! Twoja wiadomość została wysłana.
+        </div>
+    </div>
+    <!-- SOCIALE -->
+    <div class="socials" style="border-top: 2px solid white">
+        <a href="https://github.com/przemuuu">
+            <img src="Photos/github.png">
+        </a>
+    </div>
+    <!-- KONIEC SOCIALS -->
+    <!-- FOOTER -->
+    <footer>
+        <p class="footer_text" style="font-weight: normal; font-style: oblique">
+            2023 © Przemysław Popowski --- The Faculty of Computer Science at AGH University
+        </p>
+    </footer>
+    <!-- KONIEC FOOTER -->
+</div>
+</body>
+<!-- KONIEC BODY -->
+</html>
